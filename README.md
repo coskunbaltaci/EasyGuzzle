@@ -32,6 +32,7 @@ The Interface has only one method, and you have to call it with the below array 
     ];
 
 **Connection Data**
+
 | # | Description | Required |
 |--|--|--|
 | apiUrl | Request URL | Yes |
@@ -39,9 +40,11 @@ The Interface has only one method, and you have to call it with the below array 
 | method | Default method is GET, but also you may use POST, PUT, or DELETE.  | No |
 
 **Query**
+
 If you want to send a query parameter, you may use this area. It's not a required option. But its type must be an array.
 
 **Parameters**
+
 If you want to send JSON parameters in the body, you may use this area. It's not a required option. But its type must be an array.
 
 > The parameters format will be "application/json" when sending to API
